@@ -1,0 +1,113 @@
+.appContainer {
+  /* margin: 10 ; */
+  margin-top: 300px;
+  /* padding: var(--j-space-800); */
+  width: 100%;
+  max-width: 90%;
+}
+
+/* App.module.css */
+.createJobViewContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+.appContainer1 {
+  margin: 0 auto;
+  padding: var(--j-space-800);
+  width: 100%;
+  max-width: 800px;
+  border: 1px solid #ccc;
+  /* Border around the entire app container */
+  background: #282727;
+  /* Lighter background */
+  border-radius: 5px;
+}
+
+
+.titleInput,
+.descriptionInput {
+  /* Updated to apply common styles to both title and description input */
+  width: 100%;
+  font-size: var(--j-font-size-700);
+  height: var(--j-size-xl);
+  padding: 0;
+  color: var(--j-color-black);
+  background: transparent;
+  border: 0;
+}
+
+.descriptionInput {
+  /* Specific style for description input */
+  background: transparent;
+  /* Light purple background */
+  border-radius: 10px;
+  /* Curved corners */
+  font-size: 18px;
+  /* Adjust the size as needed */
+
+}
+
+.titleInput::placeholder,
+.descriptionInput::placeholder {
+  /* Updated to apply to both title and description placeholders */
+  color: var(--j-color-ui-400);
+}
+
+.titleInput:focus,
+.descriptionInput:focus {
+  /* Updated to apply to both title and description focus */
+  outline: 0;
+}
+
+.doneTodo {
+  text-decoration: line-through;
+}
+
+.saveButtonContainer {
+  text-align: right;
+  padding-top: 10px;
+}
+
+.whiteBorderBox {
+  border: 2px solid white;
+  border-radius: 10px;
+  /* Curved corners */
+}
+
+.descriptionInput::placeholder {
+  padding-left: 10px;
+}
+
+.titleInput::placeholder {
+  padding-left: 10px;
+}
+
+.maxWidth100 {
+  max-width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: var(--j-space-900);
+  padding-bottom: 900px;
+}
+
+.card {
+  cursor: pointer;
+  width: 100%;
+  background: var(--j-color-ui-100);
+  border: 10px solid var(--j-color-ui-900);
+  border-radius: var(--j-border-radius);
+  overflow: hidden;
+}
+
+.card:hover {
+  background: var(--j-color-ui-200);
+}
+
