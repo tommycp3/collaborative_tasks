@@ -10,12 +10,12 @@ Features:
 ![View All Jobs and Single Job to Update](./src/assets/all_jobs_single_job.png)
 
 Upcoming enhancements include:
-[] status updates, 
-[] time entry integration, 
-[] progress updates, 
-[] invoicing generation, 
-[] time log sharing, and 
-[] image attachments for task documentation.
+[] - status updates, 
+[] - time entry integration, 
+[] - progress updates, 
+[] - invoicing generation, 
+[] - time log sharing, and 
+[] - image attachments for task documentation.
 
 
 todo: FluxSocial Deep Link here to see live job board of each project.
