@@ -5,7 +5,9 @@ Collaborative Tasks is a Flux Social plugin designed to streamline shared task m
 Features:
 
 [x] Create, view, and delete shared tasks.
+![Create Job View](./src/assets/create_job.png)
 [x] Real-time task status tracking.
+![View All Jobs and Single Job to Update](./src/assets/all_jobs_single_job.png)
 
 Upcoming enhancements include:
 [] status updates, 
