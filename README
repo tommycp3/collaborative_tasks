@@ -1,3 +1,25 @@
+# Introducing Collaborative Tasks
+
+Collaborative Tasks is a Flux Social plugin designed to streamline shared task management within a peer-to-peer framework.
+
+Features:
+
+[x] Create, view, and delete shared tasks.
+[x] Real-time task status tracking.
+
+Upcoming enhancements include:
+[] status updates, 
+[] time entry integration, 
+[] progress updates, 
+[] invoicing generation, 
+[] time log sharing, and 
+[] image attachments for task documentation.
+
+
+Simplify collaborative task coordination with Collaborative Tasks, an essential tool for effective teamwork within Flux Social's ecosystem.
+
+
+
 # Create Flux Plugin
 
 Bootstrap a new [Flux](https://fluxsocial.io) plugin for your community.
