@@ -2,8 +2,8 @@
   "name": "shared_jobs",
   "version": "0.0.1",
   "fluxplugin": {
-    "name": "Todos",
-    "description": "Work on a collaborative todo list",
+    "name": "Collaborative Tasks",
+    "description": "",
     "icon": "list-check"
   },
   "keywords": [
