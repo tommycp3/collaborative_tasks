@@ -1,6 +1,6 @@
 {
   "name": "collaborative_tasks",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "fluxplugin": {
     "name": "Collaborative Tasks",
     "description": "Simple collaborative task list",
