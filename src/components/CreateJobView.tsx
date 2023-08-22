@@ -24,6 +24,7 @@ type Props = {
 export default function CreateJobView({ agent, perspective, source, setMenuState }: Props) {
   const [jobTitleState, setJobTitleState] = useState("");
   const [jobDescriptionState, setJobDescriptionState] = useState("");
+  const [jobState, setJobState] = useState("To_Do");
 
   const { entries: jobs, model } = useEntries({
     perspective,
@@ -39,13 +40,14 @@ export default function CreateJobView({ agent, perspective, source, setMenuState
 
   const handleSaveJob = () => {
     console.log("handleSaveJob")
+    console.log("jobState: " + jobState)
     // todo, create the model. 
     model
-      .create({jobTitle: jobTitleState, jobDescription: jobDescriptionState})
+      .create({jobTitle: jobTitleState, jobDescription: jobDescriptionState, jobStatus: jobState})
       .then(() => {
         setJobTitleState("");
         setJobDescriptionState("");
-        setMenuState("All_Jobs") 
+        setMenuState("All_Jobs")
       })
       .catch(console.log)
   }     
