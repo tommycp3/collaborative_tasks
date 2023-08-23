@@ -25,7 +25,7 @@ const jobStatus = [
   "Paid",
 ];
 
-export default function AllJobsView({ perspective, source }: Props) {
+export default function AllJobsView({ perspective, source, agent }: Props) {
   const [open, setOpen] = useState(false); // for job status menu
 
   const [showJob, setShowJob] = useState(false);
@@ -132,6 +132,7 @@ export default function AllJobsView({ perspective, source }: Props) {
               perspective={perspective}
               id={selectedJob}
               source={source}
+              agent={agent}
             ></IndividualJobView>
           </j-modal>
 
