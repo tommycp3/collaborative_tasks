@@ -133,12 +133,12 @@ export default function IndividualJobView({
                 </j-button>
               </j-box>
             </j-flex>
+            <comment-section
+              perspective={perspective}
+              source={id}
+              agent={agent}
+            ></comment-section>
           </j-box>
-          <comment-section
-            perspective={perspective}
-            source={id}
-            agent={agent}
-          ></comment-section>
         </div>
       );
     }
