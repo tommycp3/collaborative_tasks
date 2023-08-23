@@ -14,12 +14,18 @@ import styles from "../App.module.css";
 import Job from "../models/Job";
 
 type Props = {
+  agent: AgentClient;
   perspective: PerspectiveProxy;
   source: string;
   id: string;
 };
 
-export default function IndividualJobView({ perspective, id, source }: Props) {
+export default function IndividualJobView({
+  perspective,
+  id,
+  source,
+  agent,
+}: Props) {
   // const { entries: jobs, model } = useEntries({
   //   perspective,
   //   source,
@@ -128,6 +134,11 @@ export default function IndividualJobView({ perspective, id, source }: Props) {
               </j-box>
             </j-flex>
           </j-box>
+          <comment-section
+            perspective={perspective}
+            source={id}
+            agent={agent}
+          ></comment-section>
         </div>
       );
     }

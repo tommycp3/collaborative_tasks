@@ -4,6 +4,9 @@ import TodoView from "./components/TodoView";
 import "@fluxapp/ui/dist/main.d.ts";
 import { AgentClient } from "@perspect3vism/ad4m/lib/src/agent/AgentClient";
 import Layout from "./components/Layout";
+import CommentSection from "@fluxapp/comment-section";
+
+customElements.define("comment-section", CommentSection);
 
 type Props = {
   agent: AgentClient;
@@ -22,8 +25,6 @@ export default function App({ agent, perspective, source }: Props) {
       <Layout perspective={perspective} source={source} agent={agent} />
       {/* <h1> This is cool</h1> */}
       {/* <IndividualTaskViewBox perspective={perspective} source={source}></IndividualTaskViewBox> */}
-
-    
     </div>
   );
 }
